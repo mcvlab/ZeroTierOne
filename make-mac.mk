@@ -3,7 +3,8 @@ CXX=clang++
 INCLUDES=
 DEFS=
 LIBS=
-ARCH_FLAGS=-arch x86_64 -arch arm64 
+#ARCH_FLAGS=-arch x86_64 -arch arm64 
+ARCH_FLAGS=-arch x86_64
 
 CODESIGN=echo
 PRODUCTSIGN=echo
